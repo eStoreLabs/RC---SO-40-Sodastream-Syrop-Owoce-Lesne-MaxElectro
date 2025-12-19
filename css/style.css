@@ -457,6 +457,18 @@
   max-width: 80%;
   margin: 0 auto;
 }
+.es-vitamins__text--middle {
+  display: none;
+}
+.es-vitamins__text--bottom {
+  display: none;
+}
+.es-vitamins__text--middlem {
+  display: block;
+}
+.es-vitamins__text--bottomm {
+  display: block;
+}
 #es-sodastream.es-sodastream .es-your__title {
   margin: 0;
   padding: 0;
@@ -637,6 +649,75 @@
     .swiper-button-next {
     left: -1%;
   }
+
+  #es-sodastream.es-sodastream .es-video__subtitle {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 998px) {
+  #es-sodastream.es-sodastream .es-kv {
+    min-height: 620px;
+  }
+  #es-sodastream.es-sodastream .es-kv__logo {
+    position: relative;
+    margin: 0;
+    padding: 15px 0;
+    max-width: 50%;
+  }
+  #es-sodastream.es-sodastream .es-kv__title {
+    position: absolute;
+    left: 40px;
+    top: 37%;
+    padding: 15px;
+    text-align: left;
+    font-size: 50px;
+  }
+  #es-sodastream.es-sodastream .es-kv__packshot {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 450px;
+  }
+  #es-sodastream.es-sodastream .es-kv__packshot--photo {
+    max-width: 85%;
+    display: block;
+    margin-left: 60px;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+  }
+  #es-sodastream.es-sodastream .es-kv__bgtitle {
+    position: absolute;
+    top: 40px;
+    left: -27%;
+    padding: 15px;
+    font-size: 200px;
+    font-weight: 900;
+    color: #e5dcd3;
+  }
+  #es-sodastream.es-sodastream .es-kv__text {
+    width: 650px;
+    position: absolute;
+    left: 40px;
+    top: 77%;
+    text-align: left;
+    font-size: 15px;
+  }
+  #es-sodastream.es-sodastream .es-posibilities__title {
+    font-size: 36px;
+  }
+  #es-sodastream.es-sodastream .es-info__title {
+    font-size: 36px;
+  }
+  #es-sodastream.es-sodastream .es-info__text {
+    font-size: 20px;
+  }
+  #es-sodastream.es-sodastream .es-your__title {
+    font-size: 36px;
+  }
+  #es-sodastream.es-sodastream .es-your__text {
+    font-size: 20px;
+  }
   #es-sodastream.es-sodastream .es-vitamins__content {
     position: relative;
     display: flex;
@@ -710,90 +791,34 @@
     font-size: 16px;
   }
   .es-vitamins__text--top {
-    top: 11%;
-    right: 36%;
+    top: 12%;
+    right: 27%;
     text-align: right !important;
+    width: 70%;
+    display: block;
   }
   .es-vitamins__text--middle {
-    top: 23%;
-    left: 50%;
+    top: 24%;
+    left: 37%;
     text-align: left !important;
+    width: 59%;
+    display: block;
   }
   .es-vitamins__text--bottom {
-    top: 44%;
-    right: 58%;
+    top: 47%;
+    right: 42%;
     text-align: right !important;
+    width: 55%;
+    display: block;
+  }
+  .es-vitamins__text--middlem {
+    display: none;
+  }
+  .es-vitamins__text--bottomm {
+    display: none;
   }
   #es-sodastream.es-sodastream .es-vitamins__footer {
     margin-top: -20px;
-  }
-  #es-sodastream.es-sodastream .es-video__subtitle {
-    font-size: 60px;
-  }
-}
-@media screen and (min-width: 998px) {
-  #es-sodastream.es-sodastream .es-kv {
-    min-height: 620px;
-  }
-  #es-sodastream.es-sodastream .es-kv__logo {
-    position: relative;
-    margin: 0;
-    padding: 15px 0;
-    max-width: 50%;
-  }
-  #es-sodastream.es-sodastream .es-kv__title {
-    position: absolute;
-    left: 40px;
-    top: 37%;
-    padding: 15px;
-    text-align: left;
-    font-size: 50px;
-  }
-  #es-sodastream.es-sodastream .es-kv__packshot {
-    position: absolute;
-    right: 0;
-    top: 30px;
-    width: 450px;
-  }
-  #es-sodastream.es-sodastream .es-kv__packshot--photo {
-    max-width: 85%;
-    display: block;
-    margin-left: 60px;
-    padding: 0;
-    position: relative;
-    z-index: 1;
-  }
-  #es-sodastream.es-sodastream .es-kv__bgtitle {
-    position: absolute;
-    top: 40px;
-    left: -27%;
-    padding: 15px;
-    font-size: 200px;
-    font-weight: 900;
-    color: #e5dcd3;
-  }
-  #es-sodastream.es-sodastream .es-kv__text {
-    width: 650px;
-    position: absolute;
-    left: 40px;
-    top: 77%;
-    text-align: left;
-    font-size: 15px;
-  }
-  #es-sodastream.es-sodastream .es-posibilities__title {
-    font-size: 36px;
-  }
-  #es-sodastream.es-sodastream .es-info__title {
-    font-size: 36px;
-  }
-  #es-sodastream.es-sodastream .es-info__text {
-    font-size: 20px;
-  }
-  #es-sodastream.es-sodastream .es-your__title {
-    font-size: 36px;
-  }
-  #es-sodastream.es-sodastream .es-your__text {
-    font-size: 20px;
   }
   #es-sodastream.es-sodastream .es-vitamins__title {
     font-size: 36px;
